@@ -5,24 +5,17 @@ This is just an example on how to try to explain the results from a recommendati
 
 ## Basic install on Windows
 
-Install the python modules needed.
+Install the python modules needed (for CPU environment).
 
 ```
 # install environment
 python -m venv venv
-python -m pip install --upgrade pip
 .\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 
-# basic modules
+# install python modules
 pip install -r .\requirements.txt
 
-# torch-geometric
-pip install torch_geometric
-
-# extra torch-geometric dependencies:
-pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
-
-pip install jupyter
 ```
 
 

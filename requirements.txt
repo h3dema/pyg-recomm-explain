@@ -7,4 +7,19 @@ pyvis
 networkx
 scikit-learn
 
+jupyter
+
 torch
+torch_geometric
+
+-f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+torch_scatter
+
+-f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+torch_sparse
+
+-f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+torch_cluster
+
+-f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+torch_spline_conv
