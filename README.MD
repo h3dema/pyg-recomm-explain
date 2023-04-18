@@ -19,6 +19,11 @@ pip install -r .\requirements.txt
 ```
 
 
+## How to use
+
+First, open `Recommending Amazon Products-Model.ipynb` to generate the model (gnn.pt) on the current directory.
+Then, open one of the other two notebooks to train and use the Explainer.
+
 
 ## References
 
